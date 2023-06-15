@@ -150,7 +150,9 @@ byte = 8 * bit = B = octet
 
 # Ratios
 percent = 0.01 = %
-ppm = 1e-6
+ppm = 1e-6 = ppmv
+ppb = 1e-9 = ppbv
+ppt = 1e-12 = pptv
 
 # Length
 angstrom = 1e-10 * meter = Å = ångström = Å
