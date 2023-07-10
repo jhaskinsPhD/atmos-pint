@@ -812,6 +812,9 @@ neper = 1 ; logbase: 2.71828182845904523536028747135266249775724709369995; logfa
     # moles -> mass require the molecular weight
     [substance] -> [mass]: value * mw
     [mass] -> [substance]: value / mw
+	
+	#JDH, adding sub/area conversion!
+	[substance] / [area] -> [mass] / [area]: value * mw
 
     # moles/volume -> mass/volume and moles/mass -> mass/mass
     # require the  molecular weight
